@@ -27,14 +27,14 @@ final class MainViewModel: ObservableObject {
     }
     
     func fetchUsers() {
-        page += 1
         if !allUsersLoaded {
             networkService.fetchUsers(page: page)
-                .sink(receiveCompletion: { completion in
+                .sink(receiveCompletion: { [weak self] completion in
                     switch completion {
                     case .failure(let error):
                         print("Error fetching users: \(error)")
                     case .finished:
+                        self?.page += 1
                         break
                     }
                 }, receiveValue: { [weak self] response in

@@ -54,6 +54,7 @@ struct CustomTextField: View {
         static let bottonPadding = 2.0
         static let lineWidth = 1.0
         static let greyColorOpacity = 0.48
+        static let textfieldHeight = 56.0
     }
     
     var body: some View {
@@ -72,15 +73,15 @@ struct CustomTextField: View {
                     .overlay(
                         RoundedRectangle(cornerRadius: Constants.cornerRadius)
                             .stroke(fieldState.borderColor, lineWidth: Constants.lineWidth)
-                            .frame(height: 56)
+                            .frame(height: Constants.textfieldHeight)
                     )
-                    .frame(height: 56)
+                    .frame(height: Constants.textfieldHeight)
                     .padding(.bottom, Constants.bottonPadding)
                     .keyboardType(.numbersAndPunctuation)
                 Text(isError ? errorMessage : sublabel)
                     .padding(.leading, Constants.sublabelPadding)
                     .font(AppTheme.shared.typography.bodySmall)
-                    .foregroundColor(fieldState.placeholderColor)
+                    .foregroundColor(isError ? .red : Color.black.opacity(Constants.greyColorOpacity))
             }
         }
         /// To Track when state of field changes and update colors accordingly

@@ -7,18 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		356190502CA891FD005AB1E8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561904F2CA891FD005AB1E8 /* ImagePicker.swift */; };
+		356190522CA8979A005AB1E8 /* PositionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356190512CA8979A005AB1E8 /* PositionModel.swift */; };
+		356190542CA897CD005AB1E8 /* PositionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356190532CA897CD005AB1E8 /* PositionResponse.swift */; };
+		356190562CA8984D005AB1E8 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356190552CA8984D005AB1E8 /* AuthResponse.swift */; };
+		356190592CA8B7A7005AB1E8 /* NunitoSansItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 356190582CA8B7A7005AB1E8 /* NunitoSansItalic.ttf */; };
+		3561905B2CA8B7BA005AB1E8 /* NunitoSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3561905A2CA8B7BA005AB1E8 /* NunitoSans.ttf */; };
+		3561905E2CA8B99B005AB1E8 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561905D2CA8B99B005AB1E8 /* NetworkMonitor.swift */; };
+		356190642CA9A82B005AB1E8 /* RegisteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356190632CA9A82B005AB1E8 /* RegisteredView.swift */; };
+		3561906A2CA9B52D005AB1E8 /* FullUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356190692CA9B52D005AB1E8 /* FullUserModel.swift */; };
 		35F174222CA3D9C2003DD3FB /* ABZTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F174212CA3D9C2003DD3FB /* ABZTestApp.swift */; };
 		35F174242CA3D9C2003DD3FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F174232CA3D9C2003DD3FB /* ContentView.swift */; };
 		35F174262CA3D9C4003DD3FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F174252CA3D9C4003DD3FB /* Assets.xcassets */; };
 		35F174292CA3D9C4003DD3FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F174282CA3D9C4003DD3FB /* Preview Assets.xcassets */; };
+		35F174322CA6C2AC003DD3FB /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F174312CA6C2AC003DD3FB /* MainViewModel.swift */; };
+		35F174342CA6C346003DD3FB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F174332CA6C346003DD3FB /* NetworkService.swift */; };
+		35F174362CA6C3F2003DD3FB /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F174352CA6C3F2003DD3FB /* UsersView.swift */; };
+		35F1743A2CA6C8CD003DD3FB /* AppUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F174392CA6C8CD003DD3FB /* AppUIKit.swift */; };
+		35F1743C2CA6D5AE003DD3FB /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F1743B2CA6D5AE003DD3FB /* PrimaryButton.swift */; };
+		35F174412CA6E875003DD3FB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F174402CA6E875003DD3FB /* UserModel.swift */; };
+		35F174432CA6EE8C003DD3FB /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F174422CA6EE8C003DD3FB /* UserResponse.swift */; };
+		35F174452CA75FF0003DD3FB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F174442CA75FF0003DD3FB /* CardView.swift */; };
+		35F174472CA76688003DD3FB /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F174462CA76688003DD3FB /* CustomTextField.swift */; };
+		35F174492CA766B5003DD3FB /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F174482CA766B5003DD3FB /* RadioButton.swift */; };
+		35F1744B2CA766D1003DD3FB /* UploadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F1744A2CA766D1003DD3FB /* UploadButton.swift */; };
+		35F1744D2CA766F1003DD3FB /* SignUpForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F1744C2CA766F1003DD3FB /* SignUpForm.swift */; };
+		35F174552CA847FC003DD3FB /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F174542CA847FC003DD3FB /* PhotoPickerView.swift */; };
+		ECF980DB8C2E90AD8369D880 /* Pods_ABZTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8445BDEACFB12AD031C31A45 /* Pods_ABZTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3561904F2CA891FD005AB1E8 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		356190512CA8979A005AB1E8 /* PositionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionModel.swift; sourceTree = "<group>"; };
+		356190532CA897CD005AB1E8 /* PositionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionResponse.swift; sourceTree = "<group>"; };
+		356190552CA8984D005AB1E8 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		356190582CA8B7A7005AB1E8 /* NunitoSansItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NunitoSansItalic.ttf; sourceTree = "<group>"; };
+		3561905A2CA8B7BA005AB1E8 /* NunitoSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NunitoSans.ttf; sourceTree = "<group>"; };
+		3561905C2CA8B803005AB1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3561905D2CA8B99B005AB1E8 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		356190632CA9A82B005AB1E8 /* RegisteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredView.swift; sourceTree = "<group>"; };
+		356190692CA9B52D005AB1E8 /* FullUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullUserModel.swift; sourceTree = "<group>"; };
 		35F1741E2CA3D9C2003DD3FB /* ABZTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABZTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F174212CA3D9C2003DD3FB /* ABZTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABZTestApp.swift; sourceTree = "<group>"; };
 		35F174232CA3D9C2003DD3FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		35F174252CA3D9C4003DD3FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35F174282CA3D9C4003DD3FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35F174312CA6C2AC003DD3FB /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		35F174332CA6C346003DD3FB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		35F174352CA6C3F2003DD3FB /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		35F174392CA6C8CD003DD3FB /* AppUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUIKit.swift; sourceTree = "<group>"; };
+		35F1743B2CA6D5AE003DD3FB /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		35F174402CA6E875003DD3FB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		35F174422CA6EE8C003DD3FB /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
+		35F174442CA75FF0003DD3FB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		35F174462CA76688003DD3FB /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		35F174482CA766B5003DD3FB /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		35F1744A2CA766D1003DD3FB /* UploadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadButton.swift; sourceTree = "<group>"; };
+		35F1744C2CA766F1003DD3FB /* SignUpForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpForm.swift; sourceTree = "<group>"; };
+		35F174542CA847FC003DD3FB /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
+		8445BDEACFB12AD031C31A45 /* Pods_ABZTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABZTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBDE8C67F7B1BCF20F2E671 /* Pods-ABZTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABZTest.release.xcconfig"; path = "Target Support Files/Pods-ABZTest/Pods-ABZTest.release.xcconfig"; sourceTree = "<group>"; };
+		989D5ED47F4CA89C48CEB2F2 /* Pods-ABZTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABZTest.debug.xcconfig"; path = "Target Support Files/Pods-ABZTest/Pods-ABZTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +75,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF980DB8C2E90AD8369D880 /* Pods_ABZTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		356190572CA8B76B005AB1E8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				35F174392CA6C8CD003DD3FB /* AppUIKit.swift */,
+				356190582CA8B7A7005AB1E8 /* NunitoSansItalic.ttf */,
+				3561905A2CA8B7BA005AB1E8 /* NunitoSans.ttf */,
+				35F174252CA3D9C4003DD3FB /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		35F174152CA3D9C2003DD3FB = {
 			isa = PBXGroup;
 			children = (
 				35F174202CA3D9C2003DD3FB /* ABZTest */,
 				35F1741F2CA3D9C2003DD3FB /* Products */,
+				70007D4EA093BD1E0FDBC444 /* Pods */,
+				FCA0CEEB7F989AB4AFFA8E59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +114,14 @@
 		35F174202CA3D9C2003DD3FB /* ABZTest */ = {
 			isa = PBXGroup;
 			children = (
+				3561905C2CA8B803005AB1E8 /* Info.plist */,
+				356190572CA8B76B005AB1E8 /* Assets */,
+				35F174512CA816FD003DD3FB /* ViewModel */,
+				35F174502CA816DD003DD3FB /* Networking */,
+				35F1744F2CA816D1003DD3FB /* Models */,
+				35F1744E2CA816B4003DD3FB /* Views */,
+				35F1743D2CA6D5B1003DD3FB /* CustomComponents */,
 				35F174212CA3D9C2003DD3FB /* ABZTestApp.swift */,
-				35F174232CA3D9C2003DD3FB /* ContentView.swift */,
-				35F174252CA3D9C4003DD3FB /* Assets.xcassets */,
 				35F174272CA3D9C4003DD3FB /* Preview Content */,
 			);
 			path = ABZTest;
@@ -67,6 +135,78 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		35F1743D2CA6D5B1003DD3FB /* CustomComponents */ = {
+			isa = PBXGroup;
+			children = (
+				35F1743B2CA6D5AE003DD3FB /* PrimaryButton.swift */,
+				35F174442CA75FF0003DD3FB /* CardView.swift */,
+				35F174462CA76688003DD3FB /* CustomTextField.swift */,
+				35F174482CA766B5003DD3FB /* RadioButton.swift */,
+				35F1744A2CA766D1003DD3FB /* UploadButton.swift */,
+				35F174542CA847FC003DD3FB /* PhotoPickerView.swift */,
+				3561904F2CA891FD005AB1E8 /* ImagePicker.swift */,
+			);
+			path = CustomComponents;
+			sourceTree = "<group>";
+		};
+		35F1744E2CA816B4003DD3FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35F174232CA3D9C2003DD3FB /* ContentView.swift */,
+				35F174352CA6C3F2003DD3FB /* UsersView.swift */,
+				35F1744C2CA766F1003DD3FB /* SignUpForm.swift */,
+				356190632CA9A82B005AB1E8 /* RegisteredView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		35F1744F2CA816D1003DD3FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				35F174402CA6E875003DD3FB /* UserModel.swift */,
+				356190512CA8979A005AB1E8 /* PositionModel.swift */,
+				356190692CA9B52D005AB1E8 /* FullUserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		35F174502CA816DD003DD3FB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				35F174422CA6EE8C003DD3FB /* UserResponse.swift */,
+				35F174332CA6C346003DD3FB /* NetworkService.swift */,
+				356190532CA897CD005AB1E8 /* PositionResponse.swift */,
+				356190552CA8984D005AB1E8 /* AuthResponse.swift */,
+				3561905D2CA8B99B005AB1E8 /* NetworkMonitor.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		35F174512CA816FD003DD3FB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				35F174312CA6C2AC003DD3FB /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		70007D4EA093BD1E0FDBC444 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				989D5ED47F4CA89C48CEB2F2 /* Pods-ABZTest.debug.xcconfig */,
+				8EBDE8C67F7B1BCF20F2E671 /* Pods-ABZTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCA0CEEB7F989AB4AFFA8E59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8445BDEACFB12AD031C31A45 /* Pods_ABZTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35F1742C2CA3D9C4003DD3FB /* Build configuration list for PBXNativeTarget "ABZTest" */;
 			buildPhases = (
+				FC634B89695013672747D784 /* [CP] Check Pods Manifest.lock */,
 				35F1741A2CA3D9C2003DD3FB /* Sources */,
 				35F1741B2CA3D9C2003DD3FB /* Frameworks */,
 				35F1741C2CA3D9C2003DD3FB /* Resources */,
+				7EBA2429233D1E3C3107982F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +268,83 @@
 			buildActionMask = 2147483647;
 			files = (
 				35F174292CA3D9C4003DD3FB /* Preview Assets.xcassets in Resources */,
+				356190592CA8B7A7005AB1E8 /* NunitoSansItalic.ttf in Resources */,
 				35F174262CA3D9C4003DD3FB /* Assets.xcassets in Resources */,
+				3561905B2CA8B7BA005AB1E8 /* NunitoSans.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EBA2429233D1E3C3107982F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABZTest/Pods-ABZTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABZTest/Pods-ABZTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABZTest/Pods-ABZTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC634B89695013672747D784 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ABZTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		35F1741A2CA3D9C2003DD3FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F174432CA6EE8C003DD3FB /* UserResponse.swift in Sources */,
+				35F174492CA766B5003DD3FB /* RadioButton.swift in Sources */,
+				3561906A2CA9B52D005AB1E8 /* FullUserModel.swift in Sources */,
+				35F1744D2CA766F1003DD3FB /* SignUpForm.swift in Sources */,
+				356190502CA891FD005AB1E8 /* ImagePicker.swift in Sources */,
+				35F174552CA847FC003DD3FB /* PhotoPickerView.swift in Sources */,
+				35F1744B2CA766D1003DD3FB /* UploadButton.swift in Sources */,
+				35F1743C2CA6D5AE003DD3FB /* PrimaryButton.swift in Sources */,
+				35F1743A2CA6C8CD003DD3FB /* AppUIKit.swift in Sources */,
 				35F174242CA3D9C2003DD3FB /* ContentView.swift in Sources */,
+				35F174472CA76688003DD3FB /* CustomTextField.swift in Sources */,
 				35F174222CA3D9C2003DD3FB /* ABZTestApp.swift in Sources */,
+				356190522CA8979A005AB1E8 /* PositionModel.swift in Sources */,
+				3561905E2CA8B99B005AB1E8 /* NetworkMonitor.swift in Sources */,
+				35F174342CA6C346003DD3FB /* NetworkService.swift in Sources */,
+				356190542CA897CD005AB1E8 /* PositionResponse.swift in Sources */,
+				356190642CA9A82B005AB1E8 /* RegisteredView.swift in Sources */,
+				35F174322CA6C2AC003DD3FB /* MainViewModel.swift in Sources */,
+				35F174412CA6E875003DD3FB /* UserModel.swift in Sources */,
+				35F174452CA75FF0003DD3FB /* CardView.swift in Sources */,
+				356190562CA8984D005AB1E8 /* AuthResponse.swift in Sources */,
+				35F174362CA6C3F2003DD3FB /* UsersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -254,6 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -266,14 +474,20 @@
 		};
 		35F1742D2CA3D9C4003DD3FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989D5ED47F4CA89C48CEB2F2 /* Pods-ABZTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ABZTest/Preview Content\"";
+				DEVELOPMENT_TEAM = TJQ3WM9SV6;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ABZTest/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to upload a photo.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to the photo library to upload a photo.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -294,14 +508,20 @@
 		};
 		35F1742E2CA3D9C4003DD3FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EBDE8C67F7B1BCF20F2E671 /* Pods-ABZTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ABZTest/Preview Content\"";
+				DEVELOPMENT_TEAM = TJQ3WM9SV6;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ABZTest/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to upload a photo.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to the photo library to upload a photo.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

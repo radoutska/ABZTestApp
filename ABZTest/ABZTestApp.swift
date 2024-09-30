@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct ABZTestApp: App {
+    @StateObject var viewModel: MainViewModel = MainViewModel()
+    @State private var networkMonitor = NetworkMonitor()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(networkMonitor: networkMonitor)
+                .environmentObject(viewModel)
         }
     }
+    
+    init() {}
 }

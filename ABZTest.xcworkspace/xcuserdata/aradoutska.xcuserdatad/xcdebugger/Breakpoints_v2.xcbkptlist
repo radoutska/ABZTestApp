@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8677FF4B-7CB7-4B1E-8E9D-688B4F02E41F"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56342097-C5AB-4980-8542-932664F032A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABZTest/Networking/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "getPositions()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BC01144-7B5D-4B52-B19F-807F742E2F8A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABZTest/Networking/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "fetchUsers(page:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AFE7E7E-B1E1-4CCD-9BE8-228ABDBD7D0C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABZTest/CustomComponents/UploadButton.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "UploadButton"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "9AFE7E7E-B1E1-4CCD-9BE8-228ABDBD7D0C - 496f7cf96e0a0676"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of ABZTest.UploadButton.selectedImage : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "ABZTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aradoutska/Xcode/ABZTest/ABZTest/CustomComponents/UploadButton.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "9AFE7E7E-B1E1-4CCD-9BE8-228ABDBD7D0C - 9ec197d561061251"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ABZTest.UploadButton.selectedImage.getter : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "ABZTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aradoutska/Xcode/ABZTest/ABZTest/CustomComponents/UploadButton.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "9AFE7E7E-B1E1-4CCD-9BE8-228ABDBD7D0C - 7304e62a844ecaa3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ABZTest.UploadButton.selectedImage.setter : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "ABZTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aradoutska/Xcode/ABZTest/ABZTest/CustomComponents/UploadButton.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "9AFE7E7E-B1E1-4CCD-9BE8-228ABDBD7D0C - a8bb21bbabeb363c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ABZTest.UploadButton.selectedImage.modify : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "ABZTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aradoutska/Xcode/ABZTest/ABZTest/CustomComponents/UploadButton.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "9AFE7E7E-B1E1-4CCD-9BE8-228ABDBD7D0C - 60f972f7614cc289"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ABZTest.UploadButton.selectedImage.modify : Swift.Optional&lt;__C.UIImage&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ABZTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aradoutska/Xcode/ABZTest/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "9AFE7E7E-B1E1-4CCD-9BE8-228ABDBD7D0C - 6e4be6d08bfdde7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ABZTest.UploadButton.$selectedImage.getter : SwiftUI.Binding&lt;Swift.Optional&lt;__C.UIImage&gt;&gt;"
+                  moduleName = "ABZTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aradoutska/Xcode/ABZTest/ABZTest/CustomComponents/UploadButton.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0CC085E-F27C-46B4-8F82-1F37E11E3B26"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABZTest/Networking/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "registerUser(name:email:phone:positionId:photo:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B0CC085E-F27C-46B4-8F82-1F37E11E3B26 - b65481dded7213ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;ABZTest.UserCreationResponse, Alamofire.AFError&gt;) -&gt; () in closure #2 (ABZTest.AuthResponse) -&gt; () in ABZTest.NetworkService.registerUser(name: Swift.String, email: Swift.String, phone: Swift.String, positionId: Swift.Int, photo: Foundation.Data, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ABZTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aradoutska/Xcode/ABZTest/ABZTest/Networking/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "668">
+               </Location>
+               <Location
+                  uuid = "B0CC085E-F27C-46B4-8F82-1F37E11E3B26 - b65481dded72139b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;ABZTest.UserCreationResponse, Alamofire.AFError&gt;) -&gt; () in closure #2 (ABZTest.AuthResponse) -&gt; () in ABZTest.NetworkService.registerUser(name: Swift.String, email: Swift.String, phone: Swift.String, positionId: Swift.Int, photo: Foundation.Data, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ABZTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aradoutska/Xcode/ABZTest/ABZTest/Networking/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "396">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00F1DF63-77EC-4B09-AAEF-EAC1A5817BD9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABZTest/Networking/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "registerUser(name:email:phone:positionId:photo:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "00F1DF63-77EC-4B09-AAEF-EAC1A5817BD9 - 55dfcc4a63a6205"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (ABZTest.AuthResponse) -&gt; () in ABZTest.NetworkService.registerUser(name: Swift.String, email: Swift.String, phone: Swift.String, positionId: Swift.Int, photo: Foundation.Data, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ABZTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aradoutska/Xcode/ABZTest/ABZTest/Networking/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "1824">
+               </Location>
+               <Location
+                  uuid = "00F1DF63-77EC-4B09-AAEF-EAC1A5817BD9 - b65481dded7213d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;ABZTest.UserCreationResponse, Alamofire.AFError&gt;) -&gt; () in closure #2 (ABZTest.AuthResponse) -&gt; () in ABZTest.NetworkService.registerUser(name: Swift.String, email: Swift.String, phone: Swift.String, positionId: Swift.Int, photo: Foundation.Data, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ABZTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aradoutska/Xcode/ABZTest/ABZTest/Networking/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "524">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33214C38-F395-432E-8752-CD8FD7A77552"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABZTest/Networking/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "registerUser(name:email:phone:positionId:photo:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "33214C38-F395-432E-8752-CD8FD7A77552 - b65481dded72135d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;ABZTest.UserCreationResponse, Alamofire.AFError&gt;) -&gt; () in closure #2 (ABZTest.AuthResponse) -&gt; () in ABZTest.NetworkService.registerUser(name: Swift.String, email: Swift.String, phone: Swift.String, positionId: Swift.Int, photo: Foundation.Data, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ABZTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aradoutska/Xcode/ABZTest/ABZTest/Networking/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "512">
+               </Location>
+               <Location
+                  uuid = "33214C38-F395-432E-8752-CD8FD7A77552 - b65481dded72135d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DataResponse&lt;ABZTest.UserCreationResponse, Alamofire.AFError&gt;) -&gt; () in closure #2 (ABZTest.AuthResponse) -&gt; () in ABZTest.NetworkService.registerUser(name: Swift.String, email: Swift.String, phone: Swift.String, positionId: Swift.Int, photo: Foundation.Data, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ABZTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aradoutska/Xcode/ABZTest/ABZTest/Networking/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45EB7D15-1444-4681-952B-5AD285AB867C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABZTest/ViewModel/MainViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "registerUser(name:email:phone:positionId:photo:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D2D1B29-F03A-4275-A88B-0944B06766B1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABZTest/ViewModel/MainViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "registerUser(name:email:phone:positionId:photo:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC4C34A4-42A4-4CCE-991D-8BAF81134B95"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABZTest/ViewModel/MainViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "fetchUsers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E85F2409-7FA0-427C-B0E9-F41201E6AAB8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABZTest/ViewModel/MainViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "fetchUsers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "806CB589-0AAC-44B7-8178-BB6BB91CF1D8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABZTest/ViewModel/MainViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "fetchUsers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59E9358E-CE32-4D8D-B6CC-04D95386F65C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABZTest/ViewModel/MainViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "MainViewModel"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5ECF968-B305-4CE3-85D5-7228DB5CDE8B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABZTest/Views/UsersView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D6E143E-BF51-4416-8D21-604FA9F87472"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABZTest/Views/UsersView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A341051-CDD6-4FA9-981E-00E547789447"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ABZTest/Networking/NetworkMonitor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "execute()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

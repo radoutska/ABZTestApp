@@ -5,28 +5,38 @@
 //  Created by Anna Radoutska on 29.09.2024.
 //
 
-import Foundation
-import Network
+import Alamofire
 
-protocol NetworkMonitoring {
-    func execute() -> Bool
-}
-
-class NetworkMonitor: NetworkMonitoring, ObservableObject {
-    private let monitor: NWPathMonitor
-    private let queue: DispatchQueue
-    @Published var isConnected: Bool = false
+class AlamofireNetworkMonitor: ObservableObject {
+    @Published var isConnected: Bool = true
+    private let reachabilityManager = NetworkReachabilityManager()
 
     init() {
-        monitor = NWPathMonitor()
-        queue = DispatchQueue.global(qos: .background)
-        monitor.pathUpdateHandler = { [weak self] path in
-            self?.isConnected = path.status == .satisfied
-        }
-        monitor.start(queue: self.queue)
+        startMonitoring()
     }
-    
-    func execute() -> Bool {
-        isConnected
+
+    func startMonitoring() {
+        reachabilityManager?.startListening { [weak self] status in
+            guard let self = self else { return } // Safely unwrap self
+
+            switch status {
+            case .notReachable:
+                DispatchQueue.main.async {
+                    self.isConnected = false
+                    self.reachabilityManager?.stopListening()
+                }
+            case .reachable(_), .unknown:
+                DispatchQueue.main.async {
+                    self.isConnected = true
+                }
+            }
+        }
+    }
+
+    func checkConnection() {
+        // Manually trigger a connection check
+        DispatchQueue.main.async {
+            self.startMonitoring()
+        }
     }
 }

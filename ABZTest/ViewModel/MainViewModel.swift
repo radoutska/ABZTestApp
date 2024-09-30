@@ -15,7 +15,7 @@ final class MainViewModel: ObservableObject {
     @Published var isLoading: Bool = false
     @Published var image: Image? = nil
     @Published var allUsersLoaded: Bool = false
-    var page: Int = 0
+    var page: Int = 1
     
     private var cancellables = Set<AnyCancellable>()
     

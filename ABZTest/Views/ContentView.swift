@@ -9,13 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var viewModel: MainViewModel
-    private var networkMonitor: NetworkMonitor
     @State var isConnected: Bool = true
     private var theme = AppTheme.shared
-    
-    init(networkMonitor: NetworkMonitor) {
-        self.networkMonitor = networkMonitor
-    }
+    @StateObject private var networkMonitor = AlamofireNetworkMonitor()
     
     var body: some View {
         if !networkMonitor.isConnected {
@@ -24,7 +20,7 @@ struct ContentView: View {
                 Text("There is no internet connection")
                     .font(theme.typography.header)
                 PrimaryButton(text: "Try again") {
-                    isConnected = networkMonitor.execute()
+                    networkMonitor.checkConnection()
                 }
             }
         } else {
@@ -50,5 +46,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView(networkMonitor: NetworkMonitor())
+    ContentView()
 }

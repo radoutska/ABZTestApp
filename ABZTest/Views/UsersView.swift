@@ -10,8 +10,6 @@ import SwiftUI
 struct UsersView: View {
     @EnvironmentObject private var viewModel: MainViewModel
     private let theme = AppTheme.shared
-    @State private var isLoading = false
-    @State private var isFinished = false
     
     var body: some View {
         VStack(alignment: .center, spacing: 0) {
@@ -34,7 +32,7 @@ struct UsersView: View {
                         CardView(user: user)
                             .padding()
                     }
-                    if !isFinished {
+                    if !viewModel.allUsersLoaded {
                         ProgressView()
                             .frame(maxWidth: .infinity)
                             .listRowSeparator(.hidden, edges: .all)
@@ -53,10 +51,8 @@ struct UsersView: View {
     }
     
     func loadMoreContent() {
-        if !isLoading {
-            isLoading = true
+        if !viewModel.isLoading {
             viewModel.fetchUsers()
-            isLoading = false
         }
     }
 }

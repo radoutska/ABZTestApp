@@ -28,25 +28,28 @@ final class MainViewModel: ObservableObject {
     
     func fetchUsers() {
         if !allUsersLoaded {
+            isLoading = true
             networkService.fetchUsers(page: page)
-                .sink(receiveCompletion: { [weak self] completion in
-                    switch completion {
-                    case .failure(let error):
-                        print("Error fetching users: \(error)")
-                    case .finished:
-                        self?.page += 1
-                        break
-                    }
-                }, receiveValue: { [weak self] response in
-                    response.users.forEach { user in
-                        self?.networkService.downloadImage(from: user.photo) { image in
-                            if let image = image {
+                .sink(
+                    receiveCompletion: { [weak self] completion in
+                        switch completion {
+                        case .failure(let error):
+                            print("Error fetching users: \(error)")
+                        case .finished:
+                            self?.page += 1
+                            break
+                        }
+                    }, receiveValue: { [weak self] response in
+                        response.users.forEach { user in
+                            self?.networkService.downloadImage(from: user.photo) { image in
                                 self?.users.append(FullUserModel(user: user, photo: image))
                             }
                         }
+                        if response.totalPages == self?.page {
+                            self?.allUsersLoaded = true
+                        }
+                        self?.isLoading = false
                     }
-                    if response.links.nextURL == nil { self?.allUsersLoaded = true }
-                }
                 )
                 .store(in: &cancellables)
         }

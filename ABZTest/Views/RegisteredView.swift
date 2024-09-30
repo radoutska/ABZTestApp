@@ -14,7 +14,7 @@ struct RegisteredView: View {
     
     var body: some View {
         VStack(spacing: 24) {
-            Image(isSuccess ? "singin_success" : "signin_fail")
+            Image(isSuccess ? "signin_success" : "signin_fail")
             Text(message)
                 .font(AppTheme.shared.typography.body2)
             PrimaryButton(text: isSuccess ? "Got it" : "Try again") {

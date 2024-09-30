@@ -53,10 +53,10 @@ class NetworkService {
         return networkClient.performRequest(url: url)
     }
     
-    func downloadImage(from url: String, completion: @escaping (UIImage?) -> Void) {
+    func downloadImage(from url: String, completion: @escaping (UIImage) -> Void) {
         guard let imageURL = URL(string: url) else {
             print("Invalid URL")
-            completion(nil)
+            completion(UIImage())
             return
         }
         
@@ -68,11 +68,11 @@ class NetworkService {
                     completion(image)
                 } else {
                     print("Data could not be converted to UIImage")
-                    completion(nil)
+                    completion(UIImage())
                 }
             case .failure(let error):
                 print("Error downloading image: \(error)")
-                completion(nil)
+                completion(UIImage())
             }
         }
     }
